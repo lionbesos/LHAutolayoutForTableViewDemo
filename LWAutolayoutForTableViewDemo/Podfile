@@ -1,0 +1,19 @@
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+target 'LWAutolayoutForTableViewDemo' do
+
+pod 'AFNetworking'
+pod 'YYKit'
+pod 'MJRefresh'
+pod 'IQKeyboardManager'
+pod 'Masonry'
+pod 'UITableView+FDTemplateLayoutCell'
+pod 'Qiniu'
+pod 'DZNEmptyDataSet'
+pod 'Bugly'
+pod 'ReactiveObjC'
+pod 'SDCycleScrollView' #放在最后更，否则会与 MWPhotoBrowser 产生冲突，两者都有SD
+pod 'AvoidCrash', '~> 2.5.2'
+
+end
